@@ -1,0 +1,26 @@
+body { 
+    background-color：red;
+}
+.container{
+    max-width: 900px;
+    max-height: 900px;
+        argin: auto;
+}
+.left{
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    float: left;/* 可将此句改为position:absolute;left:0; */
+    }
+.right{     
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    float:right;/* 可将此句改为position:absolute;left:50%; */
+}
+.middle{
+    /* 垂直居中 */
+    vertical-align: middle;
+    /* 水平居中 */
+    text-align: center;
+}
